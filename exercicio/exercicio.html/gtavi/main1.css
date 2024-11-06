@@ -18,7 +18,13 @@ form button{
     font-family: "Anton", sans-serif;
     font-weight: 1000;
     font-style: normal;
+}
 
+header .title,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .title img{
@@ -45,14 +51,6 @@ header nav li a {
     color: aliceblue;
     text-decoration: none;
 }
-
-header .title,
-section .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 
 section .container {
     align-items: flex-start;
@@ -86,7 +84,7 @@ section h3{
 
 .social-links img {
     height: 85px;
-    margin-top: 16px;
+    margin-top: 32px;
 }
 
 .social-links li {
@@ -94,13 +92,10 @@ section h3{
     margin-right: 16px ;
 }
 
-.social-links{
-    justify-content: right;
-}
-
 .social-links li a {
     text-decoration: none;
 }
+
 #contact .container {
     display: block;
 }
@@ -158,4 +153,8 @@ footer {
 
 body{
     background-image: url(fundo.png);
+    }
+
+    .social-links{
+        justify-content: center;
     }
